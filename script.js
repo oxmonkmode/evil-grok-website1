@@ -129,7 +129,7 @@ class GrokChat {
         try {
             // Connect to local server running on your computer
             // You'll need to update this URL when you set up ngrok
-            const wsUrl = 'wss://5a2951e7572a.ngrok-free.app/ws/chat';
+            const wsUrl = 'wss://1e7d6a12c1ed.ngrok-free.app/ws/chat';
             this.ws = new WebSocket(wsUrl);
             
             this.ws.onopen = () => {
